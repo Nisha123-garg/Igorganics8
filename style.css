@@ -1,0 +1,499 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    margin: 0px; 
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.div1
+{
+    border: 2px solid black;
+}
+.menu_bar
+{
+    padding: 0px 0px;
+}
+.logo
+{
+    padding-top: 17px;
+    text-align: center;
+}
+.menu_list ul li a
+{
+    color: black !important;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-weight:bold;
+}
+.menu_list .active a
+{
+    color: #ee308f !important;
+}
+.menu_list ul li a:hover
+{
+    color:#ee308f !important;
+    text-decoration: none;
+}
+.menu_button
+{
+    text-align: right;
+}
+.menu_button a
+{
+    background-color:#ee308f;
+    color: white;
+    font-size: 18px;
+    vertical-align: middle;
+    padding:5px 15px;
+    border-radius: 30px;   
+}
+.menu_button a:hover
+{
+    text-decoration: none;
+}
+.banner
+{
+    background-image: url('images/banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.banner_content
+{
+    color: white;
+    padding: 30px 0px;
+}
+.banner_content h1
+{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 90px;
+}
+.banner_content p
+{
+    font-size: 18px;
+    text-align: justify;
+}
+.banner_content main
+{
+    font-size: 20px;
+}
+.message_box
+{
+    background-color: white;
+    margin: 0px 20px;
+    text-align: center;
+    padding: 8px;
+}
+.message_box p
+{
+    color:  #ee308f;
+    font-size: 25px;
+    padding-top: 8px;
+    font-weight: bold; 
+}
+.message_form 
+{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.message_form input
+{
+    margin: 8px 0px;
+    padding: 4px;
+    font-size: 14px;
+    width: 100%
+}
+.submit_form input
+{
+    background: linear-gradient(to right,#da359e,#ab3bbe,#8d3fd2,#6743eb);
+    font-weight: bold;
+    width: 100%;   
+    color: white;
+    font-size: 13px; 
+    height: 40px;
+    text-transform: uppercase;
+}
+#textarea
+{
+    padding: 4px;
+    margin: 8px 0px;
+    font-size: 14px;
+    width: 100%
+}
+#google-adds
+{
+    padding: 40px 0px;
+}
+.add-heading h1
+{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0px 20%;
+    text-align: center;
+    color: black;
+}
+.add-heading h1 span
+{
+    color:#ee308f;
+}
+.google-adds-services
+{
+    padding: 30px 0px;
+}
+.google-adds-services h6
+{
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+}
+.google-adds-services p
+{
+    font-size: 18px;
+    text-align: justify;
+}
+.computer-img
+{
+    padding: 60px 0px;
+}
+.google-info-content h5
+{
+    font-size: 40px;
+    color: black;
+}
+.google-info-content p
+{
+    font-size: 16px;
+    color: #646471;
+}
+#our_pricing
+{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+#our_pricing h6
+{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+#our_pricing h6 span
+{
+    color:#ee308f;
+}
+.pricing_list
+{
+    padding: 10px 30px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0;
+    border-radius: 30px;
+}
+.pricing_list p
+{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pricing_list a
+{
+    font-size: 40px;
+    color:#ee308f ;
+}
+.pricing_list a:hover
+{
+    text-decoration: none;
+}
+.cost_list ul
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+.cost_list ul li 
+{
+    font-size: 14px;
+    color: #767676;
+}
+.cost_list ul li a
+{
+    color:#ee308f ;
+    font-size:14px;
+}
+.pricing_button a
+{
+    background-color:#ee308f;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+.footer-data
+{
+padding: 70px 40px; 
+margin:50px 0px;
+}
+.form_info
+{
+background:linear-gradient(-95deg,#da359e,#ab3bbe,#8d3fd2,#6743eb);
+width: 100%;
+height: auto;
+padding: 40px;
+}
+.form_info h4
+{
+color: white;
+font-size: 36px;
+font-weight: bold;
+}
+.form_info input
+{
+width: 100%;
+padding: 4px;
+margin-bottom: 10px;
+font-size: 14px;
+}
+#form-message
+{
+width: 100%;
+padding: 4px;
+margin-bottom: 10px;
+font-size: 14px;
+
+}
+.footer-submit input
+{
+width: 40%;
+font-size: 15px;
+color: blue;
+text-transform: uppercase;
+text-align: center;
+padding: 4px 8px;
+}
+.social_media
+{
+padding-top: 70px;
+}
+.social_media ul 
+{
+text-decoration: none;
+list-style-type: none;
+}
+.social_media ul li 
+{
+font-size: 16px;
+color: #767676;
+}
+.social_media ul li a
+{
+color: #da359e;
+font-size: 35px;
+}
+.social_media ul li span
+{
+font-weight: bold;
+}
+.footer-menu
+{
+background-color: #ee308f;
+}
+
+.footer_menu_list a
+{
+display: inline-block;
+margin:0px 30px;
+text-transform: uppercase;
+color: white;
+text-align: center;
+font-size: 18px;
+list-style-type: none;
+text-decoration: none;   
+text-align: center;
+}
+.footer_menu_list  a:hover
+{
+text-decoration: none;
+}
+.copyright
+{
+background-color: #a22061;
+}
+.copyright p
+{
+text-align: center;
+color: white;
+font-size: 16px;
+font-weight: bold;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{
+    .banner_content h1
+    {
+        font-size: 37px !important;
+        text-align: center;
+    }
+    .banner_content p
+    {
+        font-size: 14px;
+        text-align: center;
+    }
+    .add-heading h1
+    {
+        font-size: 32px !important;
+        padding: 0px 13% !important;
+    }
+    .google-adds-services h6
+    {
+        font-size: 20px !important;
+        text-align: center;
+    }
+    .google-adds-services p
+    {
+        font-size: 14px !important;
+    }
+    .google-adds-services
+    {
+        padding: 20px 10px !important;
+    }
+    #our_pricing h6
+    {
+        font-size: 36px !important;
+    }
+    .pricing_list
+    {
+        margin: 20px 35%;
+    }
+    .footer_menu_list a
+    {
+        font-size: 14px !important;
+        margin:0px 15px;
+        text-align: left;
+        display: block !important;
+    }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) 
+{
+    .add-heading h1
+    {
+        font-size: 34px !important;
+        padding: 0px 13% !important;
+    }
+    .google-adds-services h6
+    {
+        font-size: 23px !important;
+        text-align: center;
+    }
+    .google-adds-services p
+    {
+        font-size: 16px !important;
+    }
+    .google-adds-services
+    {
+        padding: 20px 0px;
+    }
+    .pricing_list
+    {
+        margin: 20px 30%;
+    }
+    .footer-data
+    {
+        padding: 20px 40px; 
+        margin:20px 0px;
+    }
+    .footer_menu_list a
+    {
+        font-size: 14px !important;
+        margin:0px 15px;
+    }
+    .footer_menu_list a:nth-child(7)
+    {
+        display: none !important; 
+    }
+    .copyright p
+    {
+        font-size: 12px;
+    }
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) 
+{    
+    .banner_content h1
+    {
+        font-size: 46px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .banner_content p
+    {
+        font-size: 16px;
+        text-align: center;
+    }
+    .add-heading h1
+    {
+        font-size: 37px;
+        padding: 0px 15%;
+    }
+    .google-adds-services h6
+    {
+        font-size: 25px !important;
+    }
+    .google-adds-services p
+    {
+        font-size: 16px !important;
+    }
+    .google-info-content h5
+    {
+        font-size: 30px !important;
+    }
+    .google-info-content p
+    {
+        font-size: 15px !important;
+    }
+    .computer-img
+    {
+        padding: 20px 0px;
+    }
+    .pricing_list
+    {
+        margin: 20px 30%;
+    }
+    .footer-data
+    {
+        padding: 30px 40px; 
+        margin:20px 0px;
+    }
+    .footer_menu_list a
+    {
+        font-size: 16px;
+        margin:0px 15px;
+    }
+
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) 
+{
+    .footer_menu_list a:nth-child(8)
+    {
+        display: none;
+    }
+}
